@@ -1,5 +1,7 @@
 # Advent of code 2021
 
+[![Go](https://github.com/funvit/advent-of-code-2021/actions/workflows/go.yml/badge.svg)](https://github.com/funvit/advent-of-code-2021/actions/workflows/go.yml)
+
 Single repo for all days of 2021.
 
 
