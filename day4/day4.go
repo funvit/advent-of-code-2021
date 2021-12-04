@@ -169,8 +169,7 @@ func Part2(lines []string) int64 {
 }
 
 func parseLineToInt64s(s string) []int64 {
-	s = strings.ReplaceAll(strings.TrimSpace(s), "  ", " ")
-	p := strings.Split(s, " ")
+	p := strings.Fields(s)
 
 	var r []int64
 
