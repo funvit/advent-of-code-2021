@@ -44,35 +44,24 @@ func Part1(lines []string) int {
 		}
 
 		// set values in field
-		var x, y int
-
-		var xDone, yDone bool
-
-		for {
-			field[Point{X: p1.X + x, Y: p1.Y + y}]++
-
-			// do not forget about direction
-			if p1.X+x == p2.X {
-				xDone = true
-			} else {
-				if p2.X > p1.X {
-					x++
-				} else {
-					x--
-				}
+		if p1.X == p2.X {
+			// horizontal
+			start, end := p1.Y, p2.Y
+			if p1.Y > p2.Y {
+				start, end = p2.Y, p1.Y
 			}
-			if p1.Y+y == p2.Y {
-				yDone = true
-			} else {
-				if p2.Y > p1.Y {
-					y++
-				} else {
-					y--
-				}
+			for i := start; i <= end; i++ {
+				field[Point{X: p1.X, Y: i}]++
 			}
-
-			if xDone && yDone {
-				break
+		}
+		if p1.Y == p2.Y {
+			// vertical
+			start, end := p1.X, p2.X
+			if p1.X > p2.X {
+				start, end = p2.X, p1.X
+			}
+			for i := start; i <= end; i++ {
+				field[Point{X: i, Y: p1.Y}]++
 			}
 		}
 	}
