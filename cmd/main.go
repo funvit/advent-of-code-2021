@@ -8,6 +8,7 @@ import (
 	"aoc"
 
 	_ "aoc/day1"
+	_ "aoc/day10"
 	_ "aoc/day2"
 	_ "aoc/day3"
 	_ "aoc/day4"
