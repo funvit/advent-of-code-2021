@@ -15,6 +15,7 @@ import (
 	_ "aoc/day14"
 	_ "aoc/day15"
 	_ "aoc/day16"
+	_ "aoc/day17"
 	_ "aoc/day2"
 	_ "aoc/day3"
 	_ "aoc/day4"
