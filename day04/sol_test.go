@@ -1,4 +1,4 @@
-package day9
+package day04
 
 import (
 	"testing"
@@ -17,13 +17,13 @@ func TestPart1(t *testing.T) {
 	}{
 		{
 			"sample",
-			args{lines: aoc.MustReadLinesFromFile("../input/day9.sample.txt")},
-			15,
+			args{lines: aoc.MustReadLinesFromFile("../input/day4.sample.txt")},
+			4512,
 		},
 		{
 			"input",
-			args{lines: aoc.MustReadLinesFromFile("../input/day9.input.txt")},
-			545,
+			args{lines: aoc.MustReadLinesFromFile("../input/day4.input.txt")},
+			58412,
 		},
 	}
 	for _, tt := range tests {
@@ -42,17 +42,17 @@ func TestPart2(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
-		want int
+		want int64
 	}{
 		{
 			"sample",
-			args{lines: aoc.MustReadLinesFromFile("../input/day9.sample.txt")},
-			1134,
+			args{lines: aoc.MustReadLinesFromFile("../input/day4.sample.txt")},
+			1924,
 		},
 		{
 			"input",
-			args{lines: aoc.MustReadLinesFromFile("../input/day9.input.txt")},
-			950600,
+			args{lines: aoc.MustReadLinesFromFile("../input/day4.input.txt")},
+			10030,
 		},
 	}
 	for _, tt := range tests {

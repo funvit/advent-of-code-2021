@@ -7,7 +7,15 @@ import (
 
 	"aoc"
 
-	_ "aoc/day1"
+	_ "aoc/day01"
+	_ "aoc/day02"
+	_ "aoc/day03"
+	_ "aoc/day04"
+	_ "aoc/day05"
+	_ "aoc/day06"
+	_ "aoc/day07"
+	_ "aoc/day08"
+	_ "aoc/day09"
 	_ "aoc/day10"
 	_ "aoc/day11"
 	_ "aoc/day12"
@@ -18,14 +26,6 @@ import (
 	_ "aoc/day17"
 	_ "aoc/day18"
 	_ "aoc/day19"
-	_ "aoc/day2"
-	_ "aoc/day3"
-	_ "aoc/day4"
-	_ "aoc/day5"
-	_ "aoc/day6"
-	_ "aoc/day7"
-	_ "aoc/day8"
-	_ "aoc/day9"
 )
 
 func main() {
