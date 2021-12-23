@@ -50,6 +50,18 @@ func MinInt(n ...int) int {
 	return r
 }
 
+func MaxInt(n ...int) int {
+	var r int
+
+	for _, v := range n {
+		if r == 0 || r < v {
+			r = v
+		}
+	}
+
+	return r
+}
+
 func AbsInt64(n int64) int64 {
 	if n < 0 {
 		return -n
