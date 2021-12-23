@@ -1,0 +1,30 @@
+package day{{.Day}}
+
+import "aoc"
+
+/*
+	Note: output arg type of Part1 and Part2 can be freely changed.
+*/
+
+func Part1(lines []string) int {
+	//todo: write code here
+	return -1
+}
+
+func Part2(lines []string) int {
+	//todo: write code here
+	return -1
+}
+
+func init() {
+	// this registers solution to be able to run from ./cmd/main.go,
+	// BUT you must add import like `_ "aoc/day{{.Day}}"` in "main.go" by hands!
+	aoc.RegisterSolution({{.Day}}, aoc.DaySolution{
+		Part1: func(lines []string) interface{} {
+			return Part1(lines)
+		},
+		Part2: func(lines []string) interface{} {
+			return Part2(lines)
+		},
+	})
+}
