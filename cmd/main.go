@@ -26,6 +26,7 @@ import (
 	_ "aoc/day17"
 	_ "aoc/day18"
 	_ "aoc/day19"
+	_ "aoc/day20"
 )
 
 func main() {
