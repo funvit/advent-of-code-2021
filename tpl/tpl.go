@@ -66,7 +66,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	log.Println("folder crated:", folder)
+	log.Println("folder created:", folder)
 
 	fmt.Println("Done.")
 }
