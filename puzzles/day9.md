@@ -95,7 +95,7 @@ The bottom-right basin, size 9:
 9856789*92
 876789***9
 98999*****
-``
+```
 
 Find the three largest basins and multiply their sizes together. In the above example, this is 9 * 14 * 9 = 1134.
 

@@ -55,10 +55,10 @@ for now. The remaining five lines are corrupted:
 
 ```
 {([(<{}[<>[]}>{[]{[(<()> - Expected ], but found } instead.
-[[<[([]))<([[{}[[()]]] - Expected ], but found ) instead.
-[{[{({}]{}}([{[{{{}}([] - Expected ), but found ] instead.
-[<(<(<(<{}))><([]([]() - Expected >, but found ) instead.
-<{([([[(<>()){}]>(<<{{ - Expected ], but found > instead.
+[[<[([]))<([[{}[[()]]]   - Expected ], but found ) instead.
+[{[{({}]{}}([{[{{{}}([]  - Expected ), but found ] instead.
+[<(<(<(<{}))><([]([]()   - Expected >, but found ) instead.
+<{([([[(<>()){}]>(<<{{   - Expected ], but found > instead.
 ```
 
 Stop at the first incorrect closing character on each corrupted line.
@@ -100,9 +100,9 @@ In the example above, there are five incomplete lines:
 
 ```
 [({(<(())[]>[[{[]{<()<>> - Complete by adding }}]])})].
-[(()[<>])]({[<{<<[]>>( - Complete by adding )}>]}).
-(((({<>}<{<{<>}{[]{[]{} - Complete by adding }}>}>)))).
-{<[[]]>}<{[{[{[]{()[[[] - Complete by adding ]]}}]}]}>.
+[(()[<>])]({[<{<<[]>>(   - Complete by adding )}>]}).
+(((({<>}<{<{<>}{[]{[]{}  - Complete by adding }}>}>)))).
+{<[[]]>}<{[{[{[]{()[[[]  - Complete by adding ]]}}]}]}>.
 <{([{{}}[<[[[<>{}]]]>[]] - Complete by adding ])}>.
 ```
 
