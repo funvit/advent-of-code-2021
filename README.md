@@ -76,3 +76,29 @@ What? Why so easy... wait, whaaat?
 Was an ice memory eater :) 
 
 Remember a puzzle with 2 water cans in "Die hard" movie?
+
+### Day 23
+
+Damn. It is like puzzle 15, but how you gonna prefill graph?
+
+I am lost 1 day due to wrong path calculation (hallway you know)...
+
+Fnx to community for tips (pod only moves twice) and for cool ascii visualisation style:
+
+```
+    0 ........... DABC BADC  
+    5 A.......... D.BC BADC  
+   10 AA......... D.BC B.DC  
+   60 AA......... D..C BBDC  
+  460 AA...C..... D... BBDC  
+ 3460 AA...C.D... D... BB.C  
+ 3760 AA.....D... D... BBCC  
+ 4060 AA.....D.C. D... BBC.  
+ 8060 AA...D.D.C. .... BBC.  
+ 8110 AA...D.D.C. .B.. .BC.  
+ 8113 A....D.D.C. .B.. ABC.  
+11113 A....D...C. .B.. ABCD  
+11513 A....D..... .BC. ABCD  
+15513 A.......... .BCD ABCD  
+15516 ........... ABCD ABCD  
+```
