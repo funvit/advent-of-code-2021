@@ -102,3 +102,9 @@ Fnx to community for tips (pod only moves twice) and for cool ascii visualisatio
 15513 A.......... .BCD ABCD  
 15516 ........... ABCD ABCD  
 ```
+
+### Day 24
+
+First I implemented ALU ... But this is too slow. 
+
+Then I spied a solution from the community.
