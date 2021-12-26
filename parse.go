@@ -10,10 +10,10 @@ func MustParseInt64(s string) int64 {
 	return v
 }
 
-func MustParseNumbers(lines []string) []int64 {
+func MustParseNumbers(strs []string) []int64 {
 	var r []int64
 
-	for _, v := range lines {
+	for _, v := range strs {
 		n, err := strconv.ParseInt(v, 10, 64)
 		if err != nil {
 			panic(err)
