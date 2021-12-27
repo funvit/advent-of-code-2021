@@ -108,3 +108,12 @@ Fnx to community for tips (pod only moves twice) and for cool ascii visualisatio
 First I implemented ALU ... But this is too slow. 
 
 Then I spied a solution from the community.
+
+
+### Day 25
+
+Part One was too easy.
+
+Part Two... Whell... Fun! ;)
+
+![](aoc-2021-completed.gif)
